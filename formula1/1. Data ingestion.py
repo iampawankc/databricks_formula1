@@ -38,6 +38,7 @@ circuits_schema = StructType( fields=[
     StructField("circuitId", IntegerType(), False),
     StructField("circuitRef", StringType(), False),
     StructField("name", StringType(), False),
+    StructField("location", StringType(), False),
     StructField("country", StringType(), False),
     StructField("lat", DoubleType(), False),
     StructField("lng", DoubleType(), False),
@@ -66,7 +67,7 @@ circuits_df.printSchema()
 
 # COMMAND ----------
 
-circuits_selected_df = circuits_df.select("circuitId","circuitRef","name","country","lat","lng","alt")
+circuits_selected_df = circuits_df.select("circuitId","circuitRef","name","country","lat","lng","alt","location")
 
 #Other ways of selecting columns
 # circuits_selected_df = circuits_df.select(circuits_df.circuitId, circuits_df.circuitRef, ....)
