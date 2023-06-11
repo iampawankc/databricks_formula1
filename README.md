@@ -8,7 +8,7 @@ Formula 1 is a popular motorsport that attracts millions of fans worldwide. This
 
 Databricks is a powerful data engineering and analytics platform that provides an interactive workspace for running Apache Spark-based applications. By utilizing Databricks, this repository enables you to perform insightful analyses, visualize trends, and gain valuable insights from the Formula 1 race results.
 
-**Results as seeen in BBC **
+**Results as seeen in BBC**
 
 <img width="1085" alt="Screenshot 2023-06-11 at 11 35 57 AM" src="https://github.com/iampawankc/databricks_formula1/assets/13145715/c1d4852d-9a46-436b-b36c-7039192f2b53">
 
@@ -17,11 +17,11 @@ Databricks is a powerful data engineering and analytics platform that provides a
 <img width="1270" alt="Screenshot 2023-06-11 at 11 29 13 AM" src="https://github.com/iampawankc/databricks_formula1/assets/13145715/80a54bc5-a443-47e8-ac31-edb36528af2d">
 
 
-Dependencies
+**Dependencies**
 
 The main dependencies for this project are as follows:
 
-Python 3.x
-Databricks
-Apache Spark
-Azure Datalake Storage SDK
+-Python 3.x
+-Databricks
+-Apache Spark
+-Azure Datalake Storage SDK
