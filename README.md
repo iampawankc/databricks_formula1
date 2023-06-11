@@ -21,7 +21,7 @@ Databricks is a powerful data engineering and analytics platform that provides a
 
 The main dependencies for this project are as follows:
 
--Python 3.x
--Databricks
--Apache Spark
--Azure Datalake Storage SDK
+Python 3.x\
+Databricks\
+Apache Spark\
+Azure Datalake Storage SDK
